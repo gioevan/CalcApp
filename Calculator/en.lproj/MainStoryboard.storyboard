@@ -16,7 +16,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="agL-WE-vhC"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
                                 <state key="normal" title="-">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -26,7 +26,10 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H8m-OR-7J9">
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="101" id="8Mf-ou-zXS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <state key="normal" title="=">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -40,7 +43,7 @@
                                     <constraint firstAttribute="width" constant="50" id="nXg-l4-eNj"/>
                                     <constraint firstAttribute="height" constant="43" id="wJr-pf-WbN"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <state key="normal" title="+">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -53,7 +56,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="ln1-nK-1sE"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <state key="normal" title="/">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -67,7 +70,7 @@
                                     <constraint firstAttribute="width" constant="50" id="O0F-pz-Ygb"/>
                                     <constraint firstAttribute="height" constant="43" id="nlO-IR-nH4"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <state key="normal" title="x">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -79,6 +82,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.20000000298023224" green="0.20000000298023224" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="wG3-Yy-KZ6" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="BNU-Rq-vn5"/>
                             <constraint firstItem="Ezx-ar-gR2" firstAttribute="top" secondItem="H8m-OR-7J9" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Bh4-yG-bGg"/>
                             <constraint firstItem="qOW-cs-aKY" firstAttribute="top" secondItem="wG3-Yy-KZ6" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="GVv-vF-Fp0"/>
                             <constraint firstItem="wG3-Yy-KZ6" firstAttribute="leading" secondItem="Ezx-ar-gR2" secondAttribute="leading" type="default" id="Mfl-BT-g0T"/>
@@ -87,14 +91,10 @@
                             <constraint firstItem="H8m-OR-7J9" firstAttribute="top" secondItem="wG3-Yy-KZ6" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="ccU-TA-22U"/>
                             <constraint firstAttribute="bottom" secondItem="Ezx-ar-gR2" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="dCy-m3-xDZ"/>
                             <constraint firstItem="H8m-OR-7J9" firstAttribute="centerX" secondItem="wG3-Yy-KZ6" secondAttribute="centerX" type="default" id="dVz-V8-Mtc"/>
-                            <constraint firstItem="qOW-cs-aKY" firstAttribute="baseline" secondItem="dPQ-JC-qwG" secondAttribute="baseline" type="default" id="iqU-WX-77j"/>
                             <constraint firstItem="H8m-OR-7J9" firstAttribute="leading" secondItem="qOW-cs-aKY" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="pjG-eO-uEP"/>
-                            <constraint firstItem="qOW-cs-aKY" firstAttribute="baseline" secondItem="H8m-OR-7J9" secondAttribute="baseline" type="default" id="rA0-dD-HDa"/>
                             <constraint firstItem="Ezx-ar-gR2" firstAttribute="top" secondItem="qOW-cs-aKY" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="rgF-uu-7YI"/>
-                            <constraint firstItem="qOW-cs-aKY" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="52" id="tek-JV-o5G"/>
                             <constraint firstItem="Ezx-ar-gR2" firstAttribute="trailing" secondItem="wG3-Yy-KZ6" secondAttribute="trailing" type="default" id="uma-Wn-6vc"/>
                             <constraint firstItem="dPQ-JC-qwG" firstAttribute="top" secondItem="H8m-OR-7J9" secondAttribute="top" type="default" id="x2R-sl-VHm"/>
-                            <constraint firstItem="Ezx-ar-gR2" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="z2u-bP-Yag"/>
                         </constraints>
                     </view>
                 </viewController>
